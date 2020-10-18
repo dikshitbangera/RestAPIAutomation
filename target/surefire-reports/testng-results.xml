@@ -2,26 +2,26 @@
 <testng-results ignored="0" total="15" passed="12" failed="3" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2020-10-18T21:43:40 IST" name="restassured" finished-at="2020-10-18T21:43:53 IST" duration-ms="13125">
+  <suite started-at="2020-10-18T21:50:49 IST" name="restassured" finished-at="2020-10-18T21:51:05 IST" duration-ms="16255">
     <groups>
     </groups>
-    <test started-at="2020-10-18T21:43:40 IST" name="restassuredapi" finished-at="2020-10-18T21:43:53 IST" duration-ms="13125">
+    <test started-at="2020-10-18T21:50:49 IST" name="restassuredapi" finished-at="2020-10-18T21:51:05 IST" duration-ms="16255">
       <class name="RestAssuredAPITesting.RestAssuredAPITesting.TC007_POST_CreateEmployeeRecord">
-        <test-method is-config="true" signature="beforetest()[pri:0, instance:RestAssuredAPITesting.RestAssuredAPITesting.TC007_POST_CreateEmployeeRecord@6db9f5a4]" started-at="2020-10-18T21:43:51 IST" name="beforetest" finished-at="2020-10-18T21:43:53 IST" duration-ms="1828" status="PASS">
+        <test-method is-config="true" signature="beforetest()[pri:0, instance:RestAssuredAPITesting.RestAssuredAPITesting.TC007_POST_CreateEmployeeRecord@d21a74c]" started-at="2020-10-18T21:51:04 IST" name="beforetest" finished-at="2020-10-18T21:51:05 IST" duration-ms="1403" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforetest -->
-        <test-method signature="responsebodyvalidtion()[pri:0, instance:RestAssuredAPITesting.RestAssuredAPITesting.TC007_POST_CreateEmployeeRecord@6db9f5a4]" started-at="2020-10-18T21:43:53 IST" name="responsebodyvalidtion" finished-at="2020-10-18T21:43:53 IST" duration-ms="0" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- responsebodyvalidtion -->
-        <test-method signature="getstatusline()[pri:0, instance:RestAssuredAPITesting.RestAssuredAPITesting.TC007_POST_CreateEmployeeRecord@6db9f5a4]" started-at="2020-10-18T21:43:53 IST" name="getstatusline" finished-at="2020-10-18T21:43:53 IST" duration-ms="0" status="PASS">
+        <test-method signature="getstatusline()[pri:0, instance:RestAssuredAPITesting.RestAssuredAPITesting.TC007_POST_CreateEmployeeRecord@d21a74c]" started-at="2020-10-18T21:51:05 IST" name="getstatusline" finished-at="2020-10-18T21:51:05 IST" duration-ms="1" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- getstatusline -->
+        <test-method signature="responsebodyvalidtion()[pri:0, instance:RestAssuredAPITesting.RestAssuredAPITesting.TC007_POST_CreateEmployeeRecord@d21a74c]" started-at="2020-10-18T21:51:05 IST" name="responsebodyvalidtion" finished-at="2020-10-18T21:51:05 IST" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- responsebodyvalidtion -->
       </class> <!-- RestAssuredAPITesting.RestAssuredAPITesting.TC007_POST_CreateEmployeeRecord -->
       <class name="RestAssuredAPITesting.RestAssuredAPITesting.TC002_POST_Request">
-        <test-method signature="RegistrationSuccessful()[pri:0, instance:RestAssuredAPITesting.RestAssuredAPITesting.TC002_POST_Request@762ef0ea]" started-at="2020-10-18T21:43:47 IST" name="RegistrationSuccessful" finished-at="2020-10-18T21:43:49 IST" duration-ms="1594" status="FAIL">
+        <test-method signature="RegistrationSuccessful()[pri:0, instance:RestAssuredAPITesting.RestAssuredAPITesting.TC002_POST_Request@7b02881e]" started-at="2020-10-18T21:51:01 IST" name="RegistrationSuccessful" finished-at="2020-10-18T21:51:02 IST" duration-ms="1208" status="FAIL">
           <exception class="java.lang.AssertionError">
             <message>
               <![CDATA[expected:<200> but was:<429>]]>
@@ -73,47 +73,47 @@ at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:418)
         </test-method> <!-- RegistrationSuccessful -->
       </class> <!-- RestAssuredAPITesting.RestAssuredAPITesting.TC002_POST_Request -->
       <class name="RestAssuredAPITesting.RestAssuredAPITesting.TC001_GET_Request">
-        <test-method signature="getweatherDetails()[pri:0, instance:RestAssuredAPITesting.RestAssuredAPITesting.TC001_GET_Request@2d2ffcb7]" started-at="2020-10-18T21:43:40 IST" name="getweatherDetails" finished-at="2020-10-18T21:43:47 IST" duration-ms="6756" status="PASS">
+        <test-method signature="getweatherDetails()[pri:0, instance:RestAssuredAPITesting.RestAssuredAPITesting.TC001_GET_Request@5f8edcc5]" started-at="2020-10-18T21:50:49 IST" name="getweatherDetails" finished-at="2020-10-18T21:51:00 IST" duration-ms="11035" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- getweatherDetails -->
       </class> <!-- RestAssuredAPITesting.RestAssuredAPITesting.TC001_GET_Request -->
       <class name="RestAssuredAPITesting.RestAssuredAPITesting.TC006_GET_EmployeeRecord">
-        <test-method is-config="true" signature="setup()[pri:0, instance:RestAssuredAPITesting.RestAssuredAPITesting.TC006_GET_EmployeeRecord@117e949d]" started-at="2020-10-18T21:43:51 IST" name="setup" finished-at="2020-10-18T21:43:51 IST" duration-ms="32" status="PASS">
+        <test-method is-config="true" signature="setup()[pri:0, instance:RestAssuredAPITesting.RestAssuredAPITesting.TC006_GET_EmployeeRecord@7a675056]" started-at="2020-10-18T21:51:03 IST" name="setup" finished-at="2020-10-18T21:51:03 IST" duration-ms="25" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method is-config="true" signature="beforetest()[pri:0, instance:RestAssuredAPITesting.RestAssuredAPITesting.TC006_GET_EmployeeRecord@117e949d]" started-at="2020-10-18T21:43:51 IST" name="beforetest" finished-at="2020-10-18T21:43:51 IST" duration-ms="109" status="PASS">
+        <test-method is-config="true" signature="beforetest()[pri:0, instance:RestAssuredAPITesting.RestAssuredAPITesting.TC006_GET_EmployeeRecord@7a675056]" started-at="2020-10-18T21:51:03 IST" name="beforetest" finished-at="2020-10-18T21:51:04 IST" duration-ms="136" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforetest -->
-        <test-method signature="getserver()[pri:0, instance:RestAssuredAPITesting.RestAssuredAPITesting.TC006_GET_EmployeeRecord@117e949d]" started-at="2020-10-18T21:43:51 IST" name="getserver" finished-at="2020-10-18T21:43:51 IST" duration-ms="0" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- getserver -->
-        <test-method signature="responsebodyvalidtion()[pri:0, instance:RestAssuredAPITesting.RestAssuredAPITesting.TC006_GET_EmployeeRecord@117e949d]" started-at="2020-10-18T21:43:51 IST" name="responsebodyvalidtion" finished-at="2020-10-18T21:43:51 IST" duration-ms="16" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- responsebodyvalidtion -->
-        <test-method signature="contenttype()[pri:0, instance:RestAssuredAPITesting.RestAssuredAPITesting.TC006_GET_EmployeeRecord@117e949d]" started-at="2020-10-18T21:43:51 IST" name="contenttype" finished-at="2020-10-18T21:43:51 IST" duration-ms="0" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- contenttype -->
-        <test-method signature="contentlenght()[pri:0, instance:RestAssuredAPITesting.RestAssuredAPITesting.TC006_GET_EmployeeRecord@117e949d]" started-at="2020-10-18T21:43:51 IST" name="contentlenght" finished-at="2020-10-18T21:43:51 IST" duration-ms="0" status="PASS">
+        <test-method signature="contentlenght()[pri:0, instance:RestAssuredAPITesting.RestAssuredAPITesting.TC006_GET_EmployeeRecord@7a675056]" started-at="2020-10-18T21:51:04 IST" name="contentlenght" finished-at="2020-10-18T21:51:04 IST" duration-ms="0" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- contentlenght -->
-        <test-method is-config="true" signature="teardown()[pri:0, instance:RestAssuredAPITesting.RestAssuredAPITesting.TC006_GET_EmployeeRecord@117e949d]" started-at="2020-10-18T21:43:51 IST" name="teardown" finished-at="2020-10-18T21:43:51 IST" duration-ms="0" status="PASS">
+        <test-method signature="contenttype()[pri:0, instance:RestAssuredAPITesting.RestAssuredAPITesting.TC006_GET_EmployeeRecord@7a675056]" started-at="2020-10-18T21:51:04 IST" name="contenttype" finished-at="2020-10-18T21:51:04 IST" duration-ms="1" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- teardown -->
-        <test-method signature="responsetime()[pri:0, instance:RestAssuredAPITesting.RestAssuredAPITesting.TC006_GET_EmployeeRecord@117e949d]" started-at="2020-10-18T21:43:51 IST" name="responsetime" finished-at="2020-10-18T21:43:51 IST" duration-ms="0" status="PASS">
+        </test-method> <!-- contenttype -->
+        <test-method signature="getserver()[pri:0, instance:RestAssuredAPITesting.RestAssuredAPITesting.TC006_GET_EmployeeRecord@7a675056]" started-at="2020-10-18T21:51:04 IST" name="getserver" finished-at="2020-10-18T21:51:04 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getserver -->
+        <test-method signature="responsebodyvalidtion()[pri:0, instance:RestAssuredAPITesting.RestAssuredAPITesting.TC006_GET_EmployeeRecord@7a675056]" started-at="2020-10-18T21:51:04 IST" name="responsebodyvalidtion" finished-at="2020-10-18T21:51:04 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- responsebodyvalidtion -->
+        <test-method signature="responsetime()[pri:0, instance:RestAssuredAPITesting.RestAssuredAPITesting.TC006_GET_EmployeeRecord@7a675056]" started-at="2020-10-18T21:51:04 IST" name="responsetime" finished-at="2020-10-18T21:51:04 IST" duration-ms="1" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- responsetime -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:RestAssuredAPITesting.RestAssuredAPITesting.TC006_GET_EmployeeRecord@7a675056]" started-at="2020-10-18T21:51:04 IST" name="teardown" finished-at="2020-10-18T21:51:04 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
       </class> <!-- RestAssuredAPITesting.RestAssuredAPITesting.TC006_GET_EmployeeRecord -->
       <class name="RestAssuredAPITesting.RestAssuredAPITesting.TC004_GET_Authentication">
-        <test-method signature="authentication()[pri:0, instance:RestAssuredAPITesting.RestAssuredAPITesting.TC004_GET_Authentication@424e1977]" started-at="2020-10-18T21:43:50 IST" name="authentication" finished-at="2020-10-18T21:43:50 IST" duration-ms="203" status="FAIL">
+        <test-method signature="authentication()[pri:0, instance:RestAssuredAPITesting.RestAssuredAPITesting.TC004_GET_Authentication@3c0be339]" started-at="2020-10-18T21:51:03 IST" name="authentication" finished-at="2020-10-18T21:51:03 IST" duration-ms="72" status="FAIL">
           <exception class="java.net.UnknownHostException">
             <message>
               <![CDATA[No such host is known (restapi.demoqa.com)]]>
@@ -250,37 +250,37 @@ at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:418)
         </test-method> <!-- authentication -->
       </class> <!-- RestAssuredAPITesting.RestAssuredAPITesting.TC004_GET_Authentication -->
       <class name="RestAssuredAPITesting.RestAssuredAPITesting.TC005_GET_FrameworkAutomation">
-        <test-method is-config="true" signature="setup()[pri:0, instance:RestAssuredAPITesting.RestAssuredAPITesting.TC005_GET_FrameworkAutomation@10d68fcd]" started-at="2020-10-18T21:43:50 IST" name="setup" finished-at="2020-10-18T21:43:51 IST" duration-ms="297" status="PASS">
+        <test-method is-config="true" signature="setup()[pri:0, instance:RestAssuredAPITesting.RestAssuredAPITesting.TC005_GET_FrameworkAutomation@15ca7889]" started-at="2020-10-18T21:51:03 IST" name="setup" finished-at="2020-10-18T21:51:03 IST" duration-ms="258" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method is-config="true" signature="beforeTest()[pri:0, instance:RestAssuredAPITesting.RestAssuredAPITesting.TC005_GET_FrameworkAutomation@10d68fcd]" started-at="2020-10-18T21:43:51 IST" name="beforeTest" finished-at="2020-10-18T21:43:51 IST" duration-ms="140" status="PASS">
+        <test-method is-config="true" signature="beforeTest()[pri:0, instance:RestAssuredAPITesting.RestAssuredAPITesting.TC005_GET_FrameworkAutomation@15ca7889]" started-at="2020-10-18T21:51:03 IST" name="beforeTest" finished-at="2020-10-18T21:51:03 IST" duration-ms="114" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeTest -->
-        <test-method signature="responsebodyvalidation()[pri:0, instance:RestAssuredAPITesting.RestAssuredAPITesting.TC005_GET_FrameworkAutomation@10d68fcd]" started-at="2020-10-18T21:43:51 IST" name="responsebodyvalidation" finished-at="2020-10-18T21:43:51 IST" duration-ms="0" status="PASS">
+        <test-method signature="responsebodyvalidation()[pri:0, instance:RestAssuredAPITesting.RestAssuredAPITesting.TC005_GET_FrameworkAutomation@15ca7889]" started-at="2020-10-18T21:51:03 IST" name="responsebodyvalidation" finished-at="2020-10-18T21:51:03 IST" duration-ms="0" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- responsebodyvalidation -->
-        <test-method signature="responsetimevalidation()[pri:0, instance:RestAssuredAPITesting.RestAssuredAPITesting.TC005_GET_FrameworkAutomation@10d68fcd]" started-at="2020-10-18T21:43:51 IST" name="responsetimevalidation" finished-at="2020-10-18T21:43:51 IST" duration-ms="0" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- responsetimevalidation -->
-        <test-method is-config="true" signature="teardown()[pri:0, instance:RestAssuredAPITesting.RestAssuredAPITesting.TC005_GET_FrameworkAutomation@10d68fcd]" started-at="2020-10-18T21:43:51 IST" name="teardown" finished-at="2020-10-18T21:43:51 IST" duration-ms="0" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- teardown -->
-        <test-method signature="contentencodingvalidtion()[pri:0, instance:RestAssuredAPITesting.RestAssuredAPITesting.TC005_GET_FrameworkAutomation@10d68fcd]" started-at="2020-10-18T21:43:51 IST" name="contentencodingvalidtion" finished-at="2020-10-18T21:43:51 IST" duration-ms="0" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- contentencodingvalidtion -->
-        <test-method signature="statuscodevalidation()[pri:0, instance:RestAssuredAPITesting.RestAssuredAPITesting.TC005_GET_FrameworkAutomation@10d68fcd]" started-at="2020-10-18T21:43:51 IST" name="statuscodevalidation" finished-at="2020-10-18T21:43:51 IST" duration-ms="0" status="PASS">
+        <test-method signature="statuscodevalidation()[pri:0, instance:RestAssuredAPITesting.RestAssuredAPITesting.TC005_GET_FrameworkAutomation@15ca7889]" started-at="2020-10-18T21:51:03 IST" name="statuscodevalidation" finished-at="2020-10-18T21:51:03 IST" duration-ms="0" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- statuscodevalidation -->
+        <test-method signature="contentencodingvalidtion()[pri:0, instance:RestAssuredAPITesting.RestAssuredAPITesting.TC005_GET_FrameworkAutomation@15ca7889]" started-at="2020-10-18T21:51:03 IST" name="contentencodingvalidtion" finished-at="2020-10-18T21:51:03 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- contentencodingvalidtion -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:RestAssuredAPITesting.RestAssuredAPITesting.TC005_GET_FrameworkAutomation@15ca7889]" started-at="2020-10-18T21:51:03 IST" name="teardown" finished-at="2020-10-18T21:51:03 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method signature="responsetimevalidation()[pri:0, instance:RestAssuredAPITesting.RestAssuredAPITesting.TC005_GET_FrameworkAutomation@15ca7889]" started-at="2020-10-18T21:51:03 IST" name="responsetimevalidation" finished-at="2020-10-18T21:51:03 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- responsetimevalidation -->
       </class> <!-- RestAssuredAPITesting.RestAssuredAPITesting.TC005_GET_FrameworkAutomation -->
       <class name="RestAssuredAPITesting.RestAssuredAPITesting.TC003_GET_Request">
-        <test-method signature="googleMapTest()[pri:0, instance:RestAssuredAPITesting.RestAssuredAPITesting.TC003_GET_Request@31f9b85e]" started-at="2020-10-18T21:43:49 IST" name="googleMapTest" finished-at="2020-10-18T21:43:50 IST" duration-ms="1656" status="FAIL">
+        <test-method signature="googleMapTest()[pri:0, instance:RestAssuredAPITesting.RestAssuredAPITesting.TC003_GET_Request@1ebd319f]" started-at="2020-10-18T21:51:02 IST" name="googleMapTest" finished-at="2020-10-18T21:51:03 IST" duration-ms="1251" status="FAIL">
           <exception class="io.restassured.path.json.exception.JsonPathException">
             <message>
               <![CDATA[Failed to parse the JSON document]]>

@@ -14,7 +14,7 @@ public class TestBase {
 public static Logger logger;
 public static RequestSpecification httprequest;
 public static Response response;
-public String empid="23";
+public String empid="23"; // hard coded value
 	
 	@BeforeClass
 	public void setup() {

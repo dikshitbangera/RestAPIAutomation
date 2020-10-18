@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="TestSuite" time="16.456" tests="15" errors="0" skipped="0" failures="3">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="TestSuite" time="20.705" tests="15" errors="0" skipped="0" failures="3">
   <properties>
     <property name="sun.desktop" value="windows"/>
     <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
@@ -17,7 +17,7 @@
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="user.country" value="US"/>
     <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk-11.0.1\bin"/>
-    <property name="sun.java.command" value="C:\windows\TEMP\surefire3399732300054632995\surefirebooter6226354379383895183.jar C:\Windows\Temp\surefire3399732300054632995 2020-10-18T21-43-36_361-jvmRun1 surefire12341544033509797826tmp surefire_014936992868672662409tmp"/>
+    <property name="sun.java.command" value="C:\windows\TEMP\surefire10294174888521204134\surefirebooter10467599045441654261.jar C:\Windows\Temp\surefire10294174888521204134 2020-10-18T21-50-45_368-jvmRun1 surefire8136191958604315363tmp surefire_013369569952886460571tmp"/>
     <property name="jdk.debug" value="release"/>
     <property name="surefire.test.class.path" value="C:\Users\dikshit.bangera\eclipse-workspace\RestAssuredAPITesting\target\test-classes;C:\Users\dikshit.bangera\eclipse-workspace\RestAssuredAPITesting\target\classes;C:\windows\system32\config\systemprofile\.m2\repository\io\rest-assured\rest-assured\4.3.1\rest-assured-4.3.1.jar;C:\windows\system32\config\systemprofile\.m2\repository\org\codehaus\groovy\groovy\3.0.3\groovy-3.0.3.jar;C:\windows\system32\config\systemprofile\.m2\repository\org\codehaus\groovy\groovy-xml\3.0.3\groovy-xml-3.0.3.jar;C:\windows\system32\config\systemprofile\.m2\repository\org\apache\httpcomponents\httpclient\4.5.3\httpclient-4.5.3.jar;C:\windows\system32\config\systemprofile\.m2\repository\org\apache\httpcomponents\httpcore\4.4.6\httpcore-4.4.6.jar;C:\windows\system32\config\systemprofile\.m2\repository\commons-logging\commons-logging\1.2\commons-logging-1.2.jar;C:\windows\system32\config\systemprofile\.m2\repository\org\apache\httpcomponents\httpmime\4.5.3\httpmime-4.5.3.jar;C:\windows\system32\config\systemprofile\.m2\repository\org\hamcrest\hamcrest\2.1\hamcrest-2.1.jar;C:\windows\system32\config\systemprofile\.m2\repository\org\ccil\cowan\tagsoup\tagsoup\1.2.1\tagsoup-1.2.1.jar;C:\windows\system32\config\systemprofile\.m2\repository\io\rest-assured\json-path\4.3.1\json-path-4.3.1.jar;C:\windows\system32\config\systemprofile\.m2\repository\org\codehaus\groovy\groovy-json\3.0.3\groovy-json-3.0.3.jar;C:\windows\system32\config\systemprofile\.m2\repository\io\rest-assured\rest-assured-common\4.3.1\rest-assured-common-4.3.1.jar;C:\windows\system32\config\systemprofile\.m2\repository\io\rest-assured\xml-path\4.3.1\xml-path-4.3.1.jar;C:\windows\system32\config\systemprofile\.m2\repository\org\apache\commons\commons-lang3\3.4\commons-lang3-3.4.jar;C:\windows\system32\config\systemprofile\.m2\repository\jakarta\xml\bind\jakarta.xml.bind-api\2.3.3\jakarta.xml.bind-api-2.3.3.jar;C:\windows\system32\config\systemprofile\.m2\repository\jakarta\activation\jakarta.activation-api\1.2.2\jakarta.activation-api-1.2.2.jar;C:\windows\system32\config\systemprofile\.m2\repository\com\sun\xml\bind\jaxb-impl\2.3.3\jaxb-impl-2.3.3.jar;C:\windows\system32\config\systemprofile\.m2\repository\org\testng\testng\7.3.0\testng-7.3.0.jar;C:\windows\system32\config\systemprofile\.m2\repository\com\beust\jcommander\1.78\jcommander-1.78.jar;C:\windows\system32\config\systemprofile\.m2\repository\org\apache\ant\ant\1.10.3\ant-1.10.3.jar;C:\windows\system32\config\systemprofile\.m2\repository\org\apache\ant\ant-launcher\1.10.3\ant-launcher-1.10.3.jar;C:\windows\system32\config\systemprofile\.m2\repository\junit\junit\4.12\junit-4.12.jar;C:\windows\system32\config\systemprofile\.m2\repository\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar;C:\windows\system32\config\systemprofile\.m2\repository\com\google\inject\guice\4.2.2\guice-4.2.2-no_aop.jar;C:\windows\system32\config\systemprofile\.m2\repository\javax\inject\javax.inject\1\javax.inject-1.jar;C:\windows\system32\config\systemprofile\.m2\repository\aopalliance\aopalliance\1.0\aopalliance-1.0.jar;C:\windows\system32\config\systemprofile\.m2\repository\com\google\guava\guava\25.1-android\guava-25.1-android.jar;C:\windows\system32\config\systemprofile\.m2\repository\com\google\code\findbugs\jsr305\3.0.2\jsr305-3.0.2.jar;C:\windows\system32\config\systemprofile\.m2\repository\org\checkerframework\checker-compat-qual\2.0.0\checker-compat-qual-2.0.0.jar;C:\windows\system32\config\systemprofile\.m2\repository\com\google\errorprone\error_prone_annotations\2.1.3\error_prone_annotations-2.1.3.jar;C:\windows\system32\config\systemprofile\.m2\repository\com\google\j2objc\j2objc-annotations\1.1\j2objc-annotations-1.1.jar;C:\windows\system32\config\systemprofile\.m2\repository\org\codehaus\mojo\animal-sniffer-annotations\1.14\animal-sniffer-annotations-1.14.jar;C:\windows\system32\config\systemprofile\.m2\repository\org\yaml\snakeyaml\1.21\snakeyaml-1.21.jar;C:\windows\system32\config\systemprofile\.m2\repository\org\apache\poi\poi\4.1.2\poi-4.1.2.jar;C:\windows\system32\config\systemprofile\.m2\repository\commons-codec\commons-codec\1.13\commons-codec-1.13.jar;C:\windows\system32\config\systemprofile\.m2\repository\org\apache\commons\commons-collections4\4.4\commons-collections4-4.4.jar;C:\windows\system32\config\systemprofile\.m2\repository\org\apache\commons\commons-math3\3.6.1\commons-math3-3.6.1.jar;C:\windows\system32\config\systemprofile\.m2\repository\com\zaxxer\SparseBitSet\1.2\SparseBitSet-1.2.jar;C:\windows\system32\config\systemprofile\.m2\repository\org\apache\poi\poi-ooxml\4.1.2\poi-ooxml-4.1.2.jar;C:\windows\system32\config\systemprofile\.m2\repository\org\apache\poi\poi-ooxml-schemas\4.1.2\poi-ooxml-schemas-4.1.2.jar;C:\windows\system32\config\systemprofile\.m2\repository\org\apache\xmlbeans\xmlbeans\3.1.0\xmlbeans-3.1.0.jar;C:\windows\system32\config\systemprofile\.m2\repository\org\apache\commons\commons-compress\1.19\commons-compress-1.19.jar;C:\windows\system32\config\systemprofile\.m2\repository\com\github\virtuald\curvesapi\1.06\curvesapi-1.06.jar;C:\windows\system32\config\systemprofile\.m2\repository\com\googlecode\json-simple\json-simple\1.1.1\json-simple-1.1.1.jar;C:\windows\system32\config\systemprofile\.m2\repository\com\aventstack\extentreports\4.1.5\extentreports-4.1.5.jar;C:\windows\system32\config\systemprofile\.m2\repository\org\freemarker\freemarker\2.3.29\freemarker-2.3.29.jar;C:\windows\system32\config\systemprofile\.m2\repository\com\google\code\gson\gson\2.8.6\gson-2.8.6.jar;C:\windows\system32\config\systemprofile\.m2\repository\org\mongodb\mongodb-driver\3.12.0\mongodb-driver-3.12.0.jar;C:\windows\system32\config\systemprofile\.m2\repository\org\mongodb\mongodb-driver-core\3.12.0\mongodb-driver-core-3.12.0.jar;C:\windows\system32\config\systemprofile\.m2\repository\org\mongodb\bson\3.12.0\bson-3.12.0.jar;C:\windows\system32\config\systemprofile\.m2\repository\log4j\log4j\1.2.16\log4j-1.2.16.jar;"/>
     <property name="sun.cpu.endian" value="little"/>
@@ -33,7 +33,7 @@
     <property name="java.specification.name" value="Java Platform API Specification"/>
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
     <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
-    <property name="surefire.real.class.path" value="C:\windows\TEMP\surefire3399732300054632995\surefirebooter6226354379383895183.jar"/>
+    <property name="surefire.real.class.path" value="C:\windows\TEMP\surefire10294174888521204134\surefirebooter10467599045441654261.jar"/>
     <property name="user.script" value=""/>
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
     <property name="java.runtime.version" value="11.0.1+13"/>
@@ -53,22 +53,22 @@
     <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
     <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob"/>
     <property name="sun.os.patch.level" value=""/>
-    <property name="java.library.path" value="C:\Program Files\Java\jdk-11.0.1\bin;C:\windows\Sun\Java\bin;C:\windows\system32;C:\windows;C:\apache-maven-3.6.3/bin;C:\Program Files\Java\jdk-11.0.1/bin;C:\Program Files\Java\jdk-11.0.1/bin;C:\windows\system32;C:\windows;C:\windows\System32\Wbem;C:\windows\System32\WindowsPowerShell\v1.0\;C:\windows\System32\OpenSSH\;C:\Program Files (x86)\Symantec\VIP Access Client\;C:\apache-maven-3.6.3\bin;C:\Program Files\Java\jdk-11.0.1\bin;C:\Program Files\PuTTY\;C:\Program Files\Zulu\zulu-11\bin\;C:\Program Files\Zulu\zulu-11-jre\bin\;C:\windows\system32\config\systemprofile\AppData\Local\Microsoft\WindowsApps;."/>
+    <property name="java.library.path" value="C:\Program Files\Java\jdk-11.0.1\bin;C:\windows\Sun\Java\bin;C:\windows\system32;C:\windows;C:\Program Files\Java\jdk-11.0.1/bin;C:\Program Files\Java\jdk-11.0.1/bin;C:\windows\system32;C:\windows;C:\windows\System32\Wbem;C:\windows\System32\WindowsPowerShell\v1.0\;C:\windows\System32\OpenSSH\;C:\Program Files (x86)\Symantec\VIP Access Client\;C:\apache-maven-3.6.3\bin;C:\Program Files\Java\jdk-11.0.1\bin;C:\Program Files\PuTTY\;C:\Program Files\Zulu\zulu-11\bin\;C:\Program Files\Zulu\zulu-11-jre\bin\;C:\windows\system32\config\systemprofile\AppData\Local\Microsoft\WindowsApps;."/>
     <property name="java.vendor" value="Oracle Corporation"/>
     <property name="java.vm.info" value="mixed mode"/>
     <property name="java.vm.version" value="11.0.1+13"/>
     <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
     <property name="java.class.version" value="55.0"/>
   </properties>
-  <testcase name="getweatherDetails" classname="RestAssuredAPITesting.RestAssuredAPITesting.TC001_GET_Request" time="6.802"/>
-  <testcase name="RegistrationSuccessful" classname="RestAssuredAPITesting.RestAssuredAPITesting.TC002_POST_Request" time="1.578">
+  <testcase name="getweatherDetails" classname="RestAssuredAPITesting.RestAssuredAPITesting.TC001_GET_Request" time="11.037"/>
+  <testcase name="RegistrationSuccessful" classname="RestAssuredAPITesting.RestAssuredAPITesting.TC002_POST_Request" time="1.223">
     <failure message="expected:&lt;200&gt; but was:&lt;429&gt;" type="java.lang.AssertionError"><![CDATA[java.lang.AssertionError: expected:<200> but was:<429>
 	at RestAssuredAPITesting.RestAssuredAPITesting.TC002_POST_Request.RegistrationSuccessful(TC002_POST_Request.java:41)
 ]]></failure>
-    <system-out><![CDATA[{"status":"success","data":{"UserName":"Dikshitbang","Email":"Dikshitbang@gmail.com","FirstName":"Dikshit","LastName":"Bangera","Password":"Dikshit123@","id":8724},"message":"Successfully! Record has been added."}
+    <system-out><![CDATA[{"status":"success","data":{"UserName":"Dikshitbang","Email":"Dikshitbang@gmail.com","FirstName":"Dikshit","LastName":"Bangera","Password":"Dikshit123@","id":486},"message":"Successfully! Record has been added."}
 ]]></system-out>
   </testcase>
-  <testcase name="googleMapTest" classname="RestAssuredAPITesting.RestAssuredAPITesting.TC003_GET_Request" time="1.672">
+  <testcase name="googleMapTest" classname="RestAssuredAPITesting.RestAssuredAPITesting.TC003_GET_Request" time="1.29">
     <failure message="Failed to parse the JSON document" type="io.restassured.path.json.exception.JsonPathException"><![CDATA[io.restassured.path.json.exception.JsonPathException: Failed to parse the JSON document
 	at RestAssuredAPITesting.RestAssuredAPITesting.TC003_GET_Request.googleMapTest(TC003_GET_Request.java:54)
 Caused by: groovy.json.JsonException: Lexing failed on line: 1, column: 1, while reading '<', no possible valid JSON value or punctuation could be recognized.
@@ -83,7 +83,7 @@ Caused by: groovy.json.JsonException: Lexing failed on line: 1, column: 1, while
 The content encoding is gzip
 The content Type is application/xml; charset=UTF-8
 Content-Type     application/xml; charset=UTF-8
-Date     Sun, 18 Oct 2020 16:13:51 GMT
+Date     Sun, 18 Oct 2020 16:21:04 GMT
 Pragma     no-cache
 Expires     Fri, 01 Jan 1990 00:00:00 GMT
 Cache-Control     no-cache, must-revalidate
@@ -92,25 +92,25 @@ Content-Encoding     gzip
 Server     scaffolding on HTTPServer2
 X-XSS-Protection     0
 X-Frame-Options     SAMEORIGIN
-Server-Timing     gfet4t7; dur=207
+Server-Timing     gfet4t7; dur=206
 Alt-Svc     h3-Q050=":443"; ma=2592000,h3-29=":443"; ma=2592000,h3-27=":443"; ma=2592000,h3-T051=":443"; ma=2592000,h3-T050=":443"; ma=2592000,h3-Q046=":443"; ma=2592000,h3-Q043=":443"; ma=2592000,quic=":443"; ma=2592000; v="46,43"
 Transfer-Encoding     chunked
 ]]></system-out>
   </testcase>
-  <testcase name="authentication" classname="RestAssuredAPITesting.RestAssuredAPITesting.TC004_GET_Authentication" time="0.187">
+  <testcase name="authentication" classname="RestAssuredAPITesting.RestAssuredAPITesting.TC004_GET_Authentication" time="0.036">
     <failure message="No such host is known (restapi.demoqa.com)" type="java.net.UnknownHostException">java.net.UnknownHostException: No such host is known (restapi.demoqa.com)
 	at RestAssuredAPITesting.RestAssuredAPITesting.TC004_GET_Authentication.authentication(TC004_GET_Authentication.java:24)
 </failure>
   </testcase>
-  <testcase name="contentencodingvalidtion" classname="RestAssuredAPITesting.RestAssuredAPITesting.TC005_GET_FrameworkAutomation" time="0"/>
-  <testcase name="responsebodyvalidation" classname="RestAssuredAPITesting.RestAssuredAPITesting.TC005_GET_FrameworkAutomation" time="0.016"/>
+  <testcase name="contentencodingvalidtion" classname="RestAssuredAPITesting.RestAssuredAPITesting.TC005_GET_FrameworkAutomation" time="0.001"/>
+  <testcase name="responsebodyvalidation" classname="RestAssuredAPITesting.RestAssuredAPITesting.TC005_GET_FrameworkAutomation" time="0.015"/>
   <testcase name="responsetimevalidation" classname="RestAssuredAPITesting.RestAssuredAPITesting.TC005_GET_FrameworkAutomation" time="0"/>
   <testcase name="statuscodevalidation" classname="RestAssuredAPITesting.RestAssuredAPITesting.TC005_GET_FrameworkAutomation" time="0"/>
   <testcase name="contentlenght" classname="RestAssuredAPITesting.RestAssuredAPITesting.TC006_GET_EmployeeRecord" time="0"/>
   <testcase name="contenttype" classname="RestAssuredAPITesting.RestAssuredAPITesting.TC006_GET_EmployeeRecord" time="0"/>
   <testcase name="getserver" classname="RestAssuredAPITesting.RestAssuredAPITesting.TC006_GET_EmployeeRecord" time="0"/>
-  <testcase name="responsebodyvalidtion" classname="RestAssuredAPITesting.RestAssuredAPITesting.TC006_GET_EmployeeRecord" time="0"/>
+  <testcase name="responsebodyvalidtion" classname="RestAssuredAPITesting.RestAssuredAPITesting.TC006_GET_EmployeeRecord" time="0.024"/>
   <testcase name="responsetime" classname="RestAssuredAPITesting.RestAssuredAPITesting.TC006_GET_EmployeeRecord" time="0"/>
-  <testcase name="getstatusline" classname="RestAssuredAPITesting.RestAssuredAPITesting.TC007_POST_CreateEmployeeRecord" time="0"/>
-  <testcase name="responsebodyvalidtion" classname="RestAssuredAPITesting.RestAssuredAPITesting.TC007_POST_CreateEmployeeRecord" time="0"/>
+  <testcase name="getstatusline" classname="RestAssuredAPITesting.RestAssuredAPITesting.TC007_POST_CreateEmployeeRecord" time="0.001"/>
+  <testcase name="responsebodyvalidtion" classname="RestAssuredAPITesting.RestAssuredAPITesting.TC007_POST_CreateEmployeeRecord" time="0.032"/>
 </testsuite>
