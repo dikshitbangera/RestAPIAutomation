@@ -1,0 +1,127 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "https://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html xmlns="https://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="content-type" content="text/html; charset=UTF-8"/>
+<title>TestNG Report</title>
+<style type="text/css">table {margin-bottom:10px;border-collapse:collapse;empty-cells:show}th,td {border:1px solid #009;padding:.25em .5em}th {vertical-align:bottom}td {vertical-align:top}table a {font-weight:bold}.stripe td {background-color: #E6EBF9}.num {text-align:right}.passedodd td {background-color: #3F3}.passedeven td {background-color: #0A0}.skippedodd td {background-color: #DDD}.skippedeven td {background-color: #CCC}.failedodd td,.attn {background-color: #F33}.failedeven td,.stripe .attn {background-color: #D00}.stacktrace {white-space:pre;font-family:monospace}.totop {font-size:85%;text-align:center;border-bottom:2px solid #000}.invisible {display:none}</style>
+</head>
+<body>
+<table>
+<tr><th>Test</th><th># Passed</th><th># Skipped</th><th># Retried</th><th># Failed</th><th>Time (ms)</th><th>Included Groups</th><th>Excluded Groups</th></tr>
+<tr><th colspan="8">restassured</th></tr>
+<tr><td><a href="#t0">restassuredapi</a></td><td class="num">12</td><td class="num">0</td><td class="num">0</td><td class="num attn">3</td><td class="num">13,125</td><td></td><td></td></tr>
+</table>
+<table id='summary'><thead><tr><th>Class</th><th>Method</th><th>Start</th><th>Time (ms)</th></tr></thead><tbody><tr><th colspan="4">restassured</th></tr></tbody><tbody id="t0"><tr><th colspan="4">restassuredapi &#8212; failed</th></tr><tr class="failedeven"><td rowspan="1">RestAssuredAPITesting.RestAssuredAPITesting.TC002_POST_Request</td><td><a href="#m0">RegistrationSuccessful</a></td><td rowspan="1">1603037627456</td><td rowspan="1">1594</td></tr><tr class="failedodd"><td rowspan="1">RestAssuredAPITesting.RestAssuredAPITesting.TC003_GET_Request</td><td><a href="#m1">googleMapTest</a></td><td rowspan="1">1603037629081</td><td rowspan="1">1656</td></tr><tr class="failedeven"><td rowspan="1">RestAssuredAPITesting.RestAssuredAPITesting.TC004_GET_Authentication</td><td><a href="#m2">authentication</a></td><td rowspan="1">1603037630737</td><td rowspan="1">203</td></tr><tr><th colspan="4">restassuredapi &#8212; passed</th></tr><tr class="passedeven"><td rowspan="1">RestAssuredAPITesting.RestAssuredAPITesting.TC001_GET_Request</td><td><a href="#m3">getweatherDetails</a></td><td rowspan="1">1603037620685</td><td rowspan="1">6756</td></tr><tr class="passedodd"><td rowspan="4">RestAssuredAPITesting.RestAssuredAPITesting.TC005_GET_FrameworkAutomation</td><td><a href="#m4">contentencodingvalidtion</a></td><td rowspan="1">1603037631377</td><td rowspan="1">0</td></tr><tr class="passedodd"><td><a href="#m5">responsebodyvalidation</a></td><td rowspan="1">1603037631377</td><td rowspan="1">0</td></tr><tr class="passedodd"><td><a href="#m6">responsetimevalidation</a></td><td rowspan="1">1603037631377</td><td rowspan="1">0</td></tr><tr class="passedodd"><td><a href="#m7">statuscodevalidation</a></td><td rowspan="1">1603037631377</td><td rowspan="1">0</td></tr><tr class="passedeven"><td rowspan="5">RestAssuredAPITesting.RestAssuredAPITesting.TC006_GET_EmployeeRecord</td><td><a href="#m8">contentlenght</a></td><td rowspan="1">1603037631518</td><td rowspan="1">0</td></tr><tr class="passedeven"><td><a href="#m9">contenttype</a></td><td rowspan="1">1603037631518</td><td rowspan="1">0</td></tr><tr class="passedeven"><td><a href="#m10">getserver</a></td><td rowspan="1">1603037631518</td><td rowspan="1">0</td></tr><tr class="passedeven"><td><a href="#m11">responsebodyvalidtion</a></td><td rowspan="1">1603037631518</td><td rowspan="1">16</td></tr><tr class="passedeven"><td><a href="#m12">responsetime</a></td><td rowspan="1">1603037631534</td><td rowspan="1">0</td></tr><tr class="passedodd"><td rowspan="2">RestAssuredAPITesting.RestAssuredAPITesting.TC007_POST_CreateEmployeeRecord</td><td><a href="#m13">getstatusline</a></td><td rowspan="1">1603037633362</td><td rowspan="1">0</td></tr><tr class="passedodd"><td><a href="#m14">responsebodyvalidtion</a></td><td rowspan="1">1603037633362</td><td rowspan="1">0</td></tr></tbody>
+</table>
+<h2>restassuredapi</h2><h3 id="m0">RestAssuredAPITesting.RestAssuredAPITesting.TC002_POST_Request#RegistrationSuccessful</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">java.lang.AssertionError: expected:&lt;200&gt; but was:&lt;429&gt;
+	at org.junit.Assert.fail(Assert.java:88)
+	at org.junit.Assert.failNotEquals(Assert.java:834)
+	at org.junit.Assert.assertEquals(Assert.java:645)
+	at org.junit.Assert.assertEquals(Assert.java:631)
+	at RestAssuredAPITesting.RestAssuredAPITesting.TC002_POST_Request.RegistrationSuccessful(TC002_POST_Request.java:41)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1540)
+... Removed 31 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m1">RestAssuredAPITesting.RestAssuredAPITesting.TC003_GET_Request#googleMapTest</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">io.restassured.path.json.exception.JsonPathException: Failed to parse the JSON document
+	at io.restassured.path.json.JsonPath$ExceptionCatcher.invoke(JsonPath.java:1002)
+	at io.restassured.path.json.JsonPath$4.doParseWith(JsonPath.java:967)
+	at io.restassured.path.json.JsonPath$JsonParser.parseWith(JsonPath.java:1047)
+	at io.restassured.path.json.JsonPath.get(JsonPath.java:202)
+	at RestAssuredAPITesting.RestAssuredAPITesting.TC003_GET_Request.googleMapTest(TC003_GET_Request.java:54)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1540)
+Caused by: groovy.json.JsonException: Lexing failed on line: 1, column: 1, while reading &apos;&lt;&apos;, no possible valid JSON value or punctuation could be recognized.
+	at groovy.json.JsonLexer.nextToken(JsonLexer.java:86)
+	at groovy.json.JsonLexer$nextToken.call(Unknown Source)
+	at io.restassured.internal.path.json.ConfigurableJsonSlurper.parse(ConfigurableJsonSlurper.groovy:97)
+	at io.restassured.internal.path.json.ConfigurableJsonSlurper$parse.callCurrent(Unknown Source)
+	at io.restassured.internal.path.json.ConfigurableJsonSlurper.parseText(ConfigurableJsonSlurper.groovy:83)
+	at io.restassured.path.json.JsonPath$4$1.method(JsonPath.java:965)
+	at io.restassured.path.json.JsonPath$ExceptionCatcher.invoke(JsonPath.java:1000)
+	... 36 more
+... Removed 31 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m2">RestAssuredAPITesting.RestAssuredAPITesting.TC004_GET_Authentication#authentication</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">java.net.UnknownHostException: No such host is known (restapi.demoqa.com)
+	at java.base/java.net.Inet6AddressImpl.lookupAllHostAddr(Native Method)
+	at java.base/java.net.InetAddress$PlatformNameService.lookupAllHostAddr(InetAddress.java:929)
+	at java.base/java.net.InetAddress.getAddressesFromNameService(InetAddress.java:1515)
+	at java.base/java.net.InetAddress$NameServiceAddresses.get(InetAddress.java:848)
+	at java.base/java.net.InetAddress.getAllByName0(InetAddress.java:1505)
+	at java.base/java.net.InetAddress.getAllByName(InetAddress.java:1364)
+	at java.base/java.net.InetAddress.getAllByName(InetAddress.java:1298)
+	at org.apache.http.impl.conn.SystemDefaultDnsResolver.resolve(SystemDefaultDnsResolver.java:45)
+	at org.apache.http.impl.conn.DefaultClientConnectionOperator.resolveHostname(DefaultClientConnectionOperator.java:263)
+	at org.apache.http.impl.conn.DefaultClientConnectionOperator.openConnection(DefaultClientConnectionOperator.java:162)
+	at org.apache.http.impl.conn.ManagedClientConnectionImpl.open(ManagedClientConnectionImpl.java:326)
+	at org.apache.http.impl.client.DefaultRequestDirector.tryConnect(DefaultRequestDirector.java:610)
+	at org.apache.http.impl.client.DefaultRequestDirector.execute(DefaultRequestDirector.java:445)
+	at org.apache.http.impl.client.AbstractHttpClient.doExecute(AbstractHttpClient.java:835)
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:83)
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:56)
+	at org.apache.http.client.HttpClient$execute$0.call(Unknown Source)
+	at io.restassured.internal.RequestSpecificationImpl$RestAssuredHttpBuilder.doRequest(RequestSpecificationImpl.groovy:2055)
+	at io.restassured.internal.http.HTTPBuilder.doRequest(HTTPBuilder.java:495)
+	at io.restassured.internal.http.HTTPBuilder.request(HTTPBuilder.java:452)
+	at io.restassured.internal.http.HTTPBuilder$request$2.call(Unknown Source)
+	at io.restassured.internal.RequestSpecificationImpl.sendHttpRequest(RequestSpecificationImpl.groovy:1451)
+	at groovy.lang.MetaMethod.doMethodInvoke(MetaMethod.java:323)
+	at groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:1262)
+	at groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:1029)
+	at groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:816)
+	at groovy.lang.GroovyObject.invokeMethod(GroovyObject.java:39)
+	at org.codehaus.groovy.runtime.callsite.PogoInterceptableSite.call(PogoInterceptableSite.java:45)
+	at org.codehaus.groovy.runtime.callsite.PogoInterceptableSite.callCurrent(PogoInterceptableSite.java:55)
+	at io.restassured.internal.RequestSpecificationImpl.sendRequest(RequestSpecificationImpl.groovy:1200)
+	at groovy.lang.MetaMethod.doMethodInvoke(MetaMethod.java:323)
+	at groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:1262)
+	at groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:1029)
+	at groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:816)
+	at groovy.lang.GroovyObject.invokeMethod(GroovyObject.java:39)
+	at org.codehaus.groovy.runtime.callsite.PogoInterceptableSite.call(PogoInterceptableSite.java:45)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:166)
+	at io.restassured.internal.filter.SendRequestFilter.filter(SendRequestFilter.groovy:30)
+	at io.restassured.filter.Filter$filter$0.call(Unknown Source)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:47)
+	at io.restassured.filter.Filter$filter.call(Unknown Source)
+	at io.restassured.internal.filter.FilterContextImpl.next(FilterContextImpl.groovy:72)
+	at io.restassured.filter.time.TimingFilter.filter(TimingFilter.java:56)
+	at io.restassured.filter.Filter$filter.call(Unknown Source)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:47)
+	at io.restassured.filter.Filter$filter$0.call(Unknown Source)
+	at io.restassured.internal.filter.FilterContextImpl.next(FilterContextImpl.groovy:72)
+	at io.restassured.filter.FilterContext$next.call(Unknown Source)
+	at io.restassured.internal.RequestSpecificationImpl.applyPathParamsAndSendRequest(RequestSpecificationImpl.groovy:1655)
+	at groovy.lang.MetaMethod.doMethodInvoke(MetaMethod.java:323)
+	at groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:1262)
+	at groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:1029)
+	at groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:816)
+	at groovy.lang.GroovyObject.invokeMethod(GroovyObject.java:39)
+	at org.codehaus.groovy.runtime.callsite.PogoInterceptableSite.call(PogoInterceptableSite.java:45)
+	at org.codehaus.groovy.runtime.callsite.PogoInterceptableSite.callCurrent(PogoInterceptableSite.java:55)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callCurrent(AbstractCallSite.java:203)
+	at io.restassured.internal.RequestSpecificationImpl.request(RequestSpecificationImpl.groovy:295)
+	at io.restassured.internal.RequestSpecificationImpl.request(RequestSpecificationImpl.groovy)
+	at groovy.lang.MetaMethod.doMethodInvoke(MetaMethod.java:323)
+	at groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:1262)
+	at groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:1029)
+	at groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:816)
+	at groovy.lang.GroovyObject.invokeMethod(GroovyObject.java:39)
+	at org.codehaus.groovy.runtime.callsite.PogoInterceptableSite.call(PogoInterceptableSite.java:45)
+	at org.codehaus.groovy.runtime.callsite.PogoInterceptableSite.callCurrent(PogoInterceptableSite.java:55)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callCurrent(AbstractCallSite.java:203)
+	at io.restassured.internal.RequestSpecificationImpl.request(RequestSpecificationImpl.groovy:291)
+	at io.restassured.internal.RequestSpecificationImpl.request(RequestSpecificationImpl.groovy)
+	at RestAssuredAPITesting.RestAssuredAPITesting.TC004_GET_Authentication.authentication(TC004_GET_Authentication.java:24)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1540)
+... Removed 51 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m3">RestAssuredAPITesting.RestAssuredAPITesting.TC001_GET_Request#getweatherDetails</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m4">RestAssuredAPITesting.RestAssuredAPITesting.TC005_GET_FrameworkAutomation#contentencodingvalidtion</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m5">RestAssuredAPITesting.RestAssuredAPITesting.TC005_GET_FrameworkAutomation#responsebodyvalidation</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m6">RestAssuredAPITesting.RestAssuredAPITesting.TC005_GET_FrameworkAutomation#responsetimevalidation</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m7">RestAssuredAPITesting.RestAssuredAPITesting.TC005_GET_FrameworkAutomation#statuscodevalidation</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m8">RestAssuredAPITesting.RestAssuredAPITesting.TC006_GET_EmployeeRecord#contentlenght</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m9">RestAssuredAPITesting.RestAssuredAPITesting.TC006_GET_EmployeeRecord#contenttype</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m10">RestAssuredAPITesting.RestAssuredAPITesting.TC006_GET_EmployeeRecord#getserver</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m11">RestAssuredAPITesting.RestAssuredAPITesting.TC006_GET_EmployeeRecord#responsebodyvalidtion</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m12">RestAssuredAPITesting.RestAssuredAPITesting.TC006_GET_EmployeeRecord#responsetime</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m13">RestAssuredAPITesting.RestAssuredAPITesting.TC007_POST_CreateEmployeeRecord#getstatusline</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m14">RestAssuredAPITesting.RestAssuredAPITesting.TC007_POST_CreateEmployeeRecord#responsebodyvalidtion</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+</body>
+</html>

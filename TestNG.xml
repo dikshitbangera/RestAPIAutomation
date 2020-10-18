@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="restassured">
+<listeners>
+<listener class-name="Utilities.Reporting"/>
+</listeners>
+<test name="restassuredapi">
+<classes>
+<class name="RestAssuredAPITesting.RestAssuredAPITesting.TC001_GET_Request"/>
+<class name="RestAssuredAPITesting.RestAssuredAPITesting.TC002_POST_Request"/>
+<class name="RestAssuredAPITesting.RestAssuredAPITesting.TC003_GET_Request"/>
+<class name="RestAssuredAPITesting.RestAssuredAPITesting.TC004_GET_Authentication"/>
+<class name="RestAssuredAPITesting.RestAssuredAPITesting.TC005_GET_FrameworkAutomation"/>
+<class name="RestAssuredAPITesting.RestAssuredAPITesting.TC006_GET_EmployeeRecord"/>
+<class name="RestAssuredAPITesting.RestAssuredAPITesting.TC007_POST_CreateEmployeeRecord"/>
+
+
+</classes>
+
+</test>
+
+
+</suite>

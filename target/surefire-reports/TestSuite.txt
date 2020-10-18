@@ -1,0 +1,18 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 15, Failures: 3, Errors: 0, Skipped: 0, Time elapsed: 16.456 s <<< FAILURE! - in TestSuite
+RegistrationSuccessful(RestAssuredAPITesting.RestAssuredAPITesting.TC002_POST_Request)  Time elapsed: 1.578 s  <<< FAILURE!
+java.lang.AssertionError: expected:<200> but was:<429>
+	at RestAssuredAPITesting.RestAssuredAPITesting.TC002_POST_Request.RegistrationSuccessful(TC002_POST_Request.java:41)
+
+googleMapTest(RestAssuredAPITesting.RestAssuredAPITesting.TC003_GET_Request)  Time elapsed: 1.672 s  <<< FAILURE!
+io.restassured.path.json.exception.JsonPathException: Failed to parse the JSON document
+	at RestAssuredAPITesting.RestAssuredAPITesting.TC003_GET_Request.googleMapTest(TC003_GET_Request.java:54)
+Caused by: groovy.json.JsonException: Lexing failed on line: 1, column: 1, while reading '<', no possible valid JSON value or punctuation could be recognized.
+	at RestAssuredAPITesting.RestAssuredAPITesting.TC003_GET_Request.googleMapTest(TC003_GET_Request.java:54)
+
+authentication(RestAssuredAPITesting.RestAssuredAPITesting.TC004_GET_Authentication)  Time elapsed: 0.187 s  <<< FAILURE!
+java.net.UnknownHostException: No such host is known (restapi.demoqa.com)
+	at RestAssuredAPITesting.RestAssuredAPITesting.TC004_GET_Authentication.authentication(TC004_GET_Authentication.java:24)
+

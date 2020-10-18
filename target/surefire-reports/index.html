@@ -1,0 +1,734 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+  <meta charset='utf-8'>
+  <title>TestNG reports</title>
+
+    <link type="text/css" href="testng-reports1.css" rel="stylesheet" id="ultra" />
+    <link type="text/css" href="testng-reports.css" rel="stylesheet" id="retro" disabled="false"/>
+    <script type="text/javascript" src="jquery-3.4.1.min.js"></script>
+    <script type="text/javascript" src="testng-reports.js"></script>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type='text/javascript'>
+      google.load('visualization', '1', {packages:['table']});
+      google.setOnLoadCallback(drawTable);
+      var suiteTableInitFunctions = new Array();
+      var suiteTableData = new Array();
+    </script>
+    <!--
+      <script type="text/javascript" src="jquery-ui/js/jquery-ui-1.8.16.custom.min.js"></script>
+     -->
+  </head>
+
+  <body>
+    <div class="top-banner-root">
+      <span class="top-banner-title-font">Test results</span>
+      <button id="button" class="button">Switch Retro Theme</button> <!-- button -->
+      <br/>
+      <span class="top-banner-font-1">1 suite, 3 failed tests</span>
+    </div> <!-- top-banner-root -->
+    <div class="navigator-root">
+      <div class="navigator-suite-header">
+        <span>All suites</span>
+        <a href="#" title="Collapse/expand all the suites" class="collapse-all-link">
+          <img src="collapseall.gif" class="collapse-all-icon">
+          </img> <!-- collapse-all-icon -->
+        </a> <!-- collapse-all-link -->
+      </div> <!-- navigator-suite-header -->
+      <div class="suite">
+        <div class="rounded-window">
+          <div class="suite-header light-rounded-window-top">
+            <a href="#" panel-name="suite-restassured" class="navigator-link">
+              <span class="suite-name border-failed">restassured</span>
+            </a> <!-- navigator-link -->
+          </div> <!-- suite-header light-rounded-window-top -->
+          <div class="navigator-suite-content">
+            <div class="suite-section-title">
+              <span>Info</span>
+            </div> <!-- suite-section-title -->
+            <div class="suite-section-content">
+              <ul>
+                <li>
+                  <a href="#" panel-name="test-xml-restassured" class="navigator-link ">
+                    <span>C:\Users\dikshit.bangera\eclipse-workspace\RestAssuredAPITesting\TestNG.xml</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="testlist-restassured" class="navigator-link ">
+                    <span class="test-stats">1 test</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="group-restassured" class="navigator-link ">
+                    <span>0 groups</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="times-restassured" class="navigator-link ">
+                    <span>Times</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="reporter-restassured" class="navigator-link ">
+                    <span>Reporter output</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="ignored-methods-restassured" class="navigator-link ">
+                    <span>Ignored methods</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="chronological-restassured" class="navigator-link ">
+                    <span>Chronological view</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+              </ul>
+            </div> <!-- suite-section-content -->
+            <div class="result-section">
+              <div class="suite-section-title">
+                <span>Results</span>
+              </div> <!-- suite-section-title -->
+              <div class="suite-section-content">
+                <ul>
+                  <li>
+                    <span class="method-stats">15 methods, 3 failed,   12 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title failed">Failed methods</span>
+                    <span class="show-or-hide-methods failed">
+                      <a href="#" panel-name="suite-restassured" class="hide-methods failed suite-restassured"> (hide)</a> <!-- hide-methods failed suite-restassured -->
+                      <a href="#" panel-name="suite-restassured" class="show-methods failed suite-restassured"> (show)</a> <!-- show-methods failed suite-restassured -->
+                    </span>
+                    <div class="method-list-content failed suite-restassured">
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-restassured" title="RestAssuredAPITesting.RestAssuredAPITesting.TC002_POST_Request" class="method navigator-link" hash-for-method="RegistrationSuccessful">RegistrationSuccessful</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-restassured" title="RestAssuredAPITesting.RestAssuredAPITesting.TC004_GET_Authentication" class="method navigator-link" hash-for-method="authentication">authentication</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-restassured" title="RestAssuredAPITesting.RestAssuredAPITesting.TC003_GET_Request" class="method navigator-link" hash-for-method="googleMapTest">googleMapTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content failed suite-restassured -->
+                  </li>
+                  <li>
+                    <span class="method-list-title passed">Passed methods</span>
+                    <span class="show-or-hide-methods passed">
+                      <a href="#" panel-name="suite-restassured" class="hide-methods passed suite-restassured"> (hide)</a> <!-- hide-methods passed suite-restassured -->
+                      <a href="#" panel-name="suite-restassured" class="show-methods passed suite-restassured"> (show)</a> <!-- show-methods passed suite-restassured -->
+                    </span>
+                    <div class="method-list-content passed suite-restassured">
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-restassured" title="RestAssuredAPITesting.RestAssuredAPITesting.TC005_GET_FrameworkAutomation" class="method navigator-link" hash-for-method="contentencodingvalidtion">contentencodingvalidtion</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-restassured" title="RestAssuredAPITesting.RestAssuredAPITesting.TC006_GET_EmployeeRecord" class="method navigator-link" hash-for-method="contentlenght">contentlenght</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-restassured" title="RestAssuredAPITesting.RestAssuredAPITesting.TC006_GET_EmployeeRecord" class="method navigator-link" hash-for-method="contenttype">contenttype</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-restassured" title="RestAssuredAPITesting.RestAssuredAPITesting.TC006_GET_EmployeeRecord" class="method navigator-link" hash-for-method="getserver">getserver</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-restassured" title="RestAssuredAPITesting.RestAssuredAPITesting.TC007_POST_CreateEmployeeRecord" class="method navigator-link" hash-for-method="getstatusline">getstatusline</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-restassured" title="RestAssuredAPITesting.RestAssuredAPITesting.TC001_GET_Request" class="method navigator-link" hash-for-method="getweatherDetails">getweatherDetails</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-restassured" title="RestAssuredAPITesting.RestAssuredAPITesting.TC005_GET_FrameworkAutomation" class="method navigator-link" hash-for-method="responsebodyvalidation">responsebodyvalidation</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-restassured" title="RestAssuredAPITesting.RestAssuredAPITesting.TC007_POST_CreateEmployeeRecord" class="method navigator-link" hash-for-method="responsebodyvalidtion">responsebodyvalidtion</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-restassured" title="RestAssuredAPITesting.RestAssuredAPITesting.TC006_GET_EmployeeRecord" class="method navigator-link" hash-for-method="responsebodyvalidtion">responsebodyvalidtion</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-restassured" title="RestAssuredAPITesting.RestAssuredAPITesting.TC006_GET_EmployeeRecord" class="method navigator-link" hash-for-method="responsetime">responsetime</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-restassured" title="RestAssuredAPITesting.RestAssuredAPITesting.TC005_GET_FrameworkAutomation" class="method navigator-link" hash-for-method="responsetimevalidation">responsetimevalidation</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-restassured" title="RestAssuredAPITesting.RestAssuredAPITesting.TC005_GET_FrameworkAutomation" class="method navigator-link" hash-for-method="statuscodevalidation">statuscodevalidation</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content passed suite-restassured -->
+                  </li>
+                </ul>
+              </div> <!-- suite-section-content -->
+            </div> <!-- result-section -->
+          </div> <!-- navigator-suite-content -->
+        </div> <!-- rounded-window -->
+      </div> <!-- suite -->
+    </div> <!-- navigator-root -->
+    <div class="wrapper">
+      <div class="main-panel-root">
+        <div panel-name="suite-restassured" class="panel restassured">
+          <div class="suite-restassured-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">RestAssuredAPITesting.RestAssuredAPITesting.TC003_GET_Request</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="googleMapTest">
+                  </a> <!-- googleMapTest -->
+                  <span class="method-name">googleMapTest</span>
+                  <div class="stack-trace">io.restassured.path.json.exception.JsonPathException: Failed to parse the JSON document
+	at io.restassured.path.json.JsonPath$ExceptionCatcher.invoke(JsonPath.java:1002)
+	at io.restassured.path.json.JsonPath$4.doParseWith(JsonPath.java:967)
+	at io.restassured.path.json.JsonPath$JsonParser.parseWith(JsonPath.java:1047)
+	at io.restassured.path.json.JsonPath.get(JsonPath.java:202)
+	at RestAssuredAPITesting.RestAssuredAPITesting.TC003_GET_Request.googleMapTest(TC003_GET_Request.java:54)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1540)
+Caused by: groovy.json.JsonException: Lexing failed on line: 1, column: 1, while reading &apos;&lt;&apos;, no possible valid JSON value or punctuation could be recognized.
+	at groovy.json.JsonLexer.nextToken(JsonLexer.java:86)
+	at groovy.json.JsonLexer$nextToken.call(Unknown Source)
+	at io.restassured.internal.path.json.ConfigurableJsonSlurper.parse(ConfigurableJsonSlurper.groovy:97)
+	at io.restassured.internal.path.json.ConfigurableJsonSlurper$parse.callCurrent(Unknown Source)
+	at io.restassured.internal.path.json.ConfigurableJsonSlurper.parseText(ConfigurableJsonSlurper.groovy:83)
+	at io.restassured.path.json.JsonPath$4$1.method(JsonPath.java:965)
+	at io.restassured.path.json.JsonPath$ExceptionCatcher.invoke(JsonPath.java:1000)
+	... 36 more
+... Removed 31 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-restassured-class-failed -->
+          <div class="suite-restassured-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">RestAssuredAPITesting.RestAssuredAPITesting.TC002_POST_Request</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="RegistrationSuccessful">
+                  </a> <!-- RegistrationSuccessful -->
+                  <span class="method-name">RegistrationSuccessful</span>
+                  <div class="stack-trace">java.lang.AssertionError: expected:&lt;200&gt; but was:&lt;429&gt;
+	at org.junit.Assert.fail(Assert.java:88)
+	at org.junit.Assert.failNotEquals(Assert.java:834)
+	at org.junit.Assert.assertEquals(Assert.java:645)
+	at org.junit.Assert.assertEquals(Assert.java:631)
+	at RestAssuredAPITesting.RestAssuredAPITesting.TC002_POST_Request.RegistrationSuccessful(TC002_POST_Request.java:41)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1540)
+... Removed 31 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-restassured-class-failed -->
+          <div class="suite-restassured-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">RestAssuredAPITesting.RestAssuredAPITesting.TC004_GET_Authentication</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="authentication">
+                  </a> <!-- authentication -->
+                  <span class="method-name">authentication</span>
+                  <div class="stack-trace">java.net.UnknownHostException: No such host is known (restapi.demoqa.com)
+	at java.base/java.net.Inet6AddressImpl.lookupAllHostAddr(Native Method)
+	at java.base/java.net.InetAddress$PlatformNameService.lookupAllHostAddr(InetAddress.java:929)
+	at java.base/java.net.InetAddress.getAddressesFromNameService(InetAddress.java:1515)
+	at java.base/java.net.InetAddress$NameServiceAddresses.get(InetAddress.java:848)
+	at java.base/java.net.InetAddress.getAllByName0(InetAddress.java:1505)
+	at java.base/java.net.InetAddress.getAllByName(InetAddress.java:1364)
+	at java.base/java.net.InetAddress.getAllByName(InetAddress.java:1298)
+	at org.apache.http.impl.conn.SystemDefaultDnsResolver.resolve(SystemDefaultDnsResolver.java:45)
+	at org.apache.http.impl.conn.DefaultClientConnectionOperator.resolveHostname(DefaultClientConnectionOperator.java:263)
+	at org.apache.http.impl.conn.DefaultClientConnectionOperator.openConnection(DefaultClientConnectionOperator.java:162)
+	at org.apache.http.impl.conn.ManagedClientConnectionImpl.open(ManagedClientConnectionImpl.java:326)
+	at org.apache.http.impl.client.DefaultRequestDirector.tryConnect(DefaultRequestDirector.java:610)
+	at org.apache.http.impl.client.DefaultRequestDirector.execute(DefaultRequestDirector.java:445)
+	at org.apache.http.impl.client.AbstractHttpClient.doExecute(AbstractHttpClient.java:835)
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:83)
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:56)
+	at org.apache.http.client.HttpClient$execute$0.call(Unknown Source)
+	at io.restassured.internal.RequestSpecificationImpl$RestAssuredHttpBuilder.doRequest(RequestSpecificationImpl.groovy:2055)
+	at io.restassured.internal.http.HTTPBuilder.doRequest(HTTPBuilder.java:495)
+	at io.restassured.internal.http.HTTPBuilder.request(HTTPBuilder.java:452)
+	at io.restassured.internal.http.HTTPBuilder$request$2.call(Unknown Source)
+	at io.restassured.internal.RequestSpecificationImpl.sendHttpRequest(RequestSpecificationImpl.groovy:1451)
+	at groovy.lang.MetaMethod.doMethodInvoke(MetaMethod.java:323)
+	at groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:1262)
+	at groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:1029)
+	at groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:816)
+	at groovy.lang.GroovyObject.invokeMethod(GroovyObject.java:39)
+	at org.codehaus.groovy.runtime.callsite.PogoInterceptableSite.call(PogoInterceptableSite.java:45)
+	at org.codehaus.groovy.runtime.callsite.PogoInterceptableSite.callCurrent(PogoInterceptableSite.java:55)
+	at io.restassured.internal.RequestSpecificationImpl.sendRequest(RequestSpecificationImpl.groovy:1200)
+	at groovy.lang.MetaMethod.doMethodInvoke(MetaMethod.java:323)
+	at groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:1262)
+	at groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:1029)
+	at groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:816)
+	at groovy.lang.GroovyObject.invokeMethod(GroovyObject.java:39)
+	at org.codehaus.groovy.runtime.callsite.PogoInterceptableSite.call(PogoInterceptableSite.java:45)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:166)
+	at io.restassured.internal.filter.SendRequestFilter.filter(SendRequestFilter.groovy:30)
+	at io.restassured.filter.Filter$filter$0.call(Unknown Source)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:47)
+	at io.restassured.filter.Filter$filter.call(Unknown Source)
+	at io.restassured.internal.filter.FilterContextImpl.next(FilterContextImpl.groovy:72)
+	at io.restassured.filter.time.TimingFilter.filter(TimingFilter.java:56)
+	at io.restassured.filter.Filter$filter.call(Unknown Source)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:47)
+	at io.restassured.filter.Filter$filter$0.call(Unknown Source)
+	at io.restassured.internal.filter.FilterContextImpl.next(FilterContextImpl.groovy:72)
+	at io.restassured.filter.FilterContext$next.call(Unknown Source)
+	at io.restassured.internal.RequestSpecificationImpl.applyPathParamsAndSendRequest(RequestSpecificationImpl.groovy:1655)
+	at groovy.lang.MetaMethod.doMethodInvoke(MetaMethod.java:323)
+	at groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:1262)
+	at groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:1029)
+	at groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:816)
+	at groovy.lang.GroovyObject.invokeMethod(GroovyObject.java:39)
+	at org.codehaus.groovy.runtime.callsite.PogoInterceptableSite.call(PogoInterceptableSite.java:45)
+	at org.codehaus.groovy.runtime.callsite.PogoInterceptableSite.callCurrent(PogoInterceptableSite.java:55)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callCurrent(AbstractCallSite.java:203)
+	at io.restassured.internal.RequestSpecificationImpl.request(RequestSpecificationImpl.groovy:295)
+	at io.restassured.internal.RequestSpecificationImpl.request(RequestSpecificationImpl.groovy)
+	at groovy.lang.MetaMethod.doMethodInvoke(MetaMethod.java:323)
+	at groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:1262)
+	at groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:1029)
+	at groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:816)
+	at groovy.lang.GroovyObject.invokeMethod(GroovyObject.java:39)
+	at org.codehaus.groovy.runtime.callsite.PogoInterceptableSite.call(PogoInterceptableSite.java:45)
+	at org.codehaus.groovy.runtime.callsite.PogoInterceptableSite.callCurrent(PogoInterceptableSite.java:55)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callCurrent(AbstractCallSite.java:203)
+	at io.restassured.internal.RequestSpecificationImpl.request(RequestSpecificationImpl.groovy:291)
+	at io.restassured.internal.RequestSpecificationImpl.request(RequestSpecificationImpl.groovy)
+	at RestAssuredAPITesting.RestAssuredAPITesting.TC004_GET_Authentication.authentication(TC004_GET_Authentication.java:24)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1540)
+... Removed 51 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-restassured-class-failed -->
+          <div class="suite-restassured-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">RestAssuredAPITesting.RestAssuredAPITesting.TC007_POST_CreateEmployeeRecord</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="getstatusline">
+                  </a> <!-- getstatusline -->
+                  <span class="method-name">getstatusline</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="responsebodyvalidtion">
+                  </a> <!-- responsebodyvalidtion -->
+                  <span class="method-name">responsebodyvalidtion</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-restassured-class-passed -->
+          <div class="suite-restassured-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">RestAssuredAPITesting.RestAssuredAPITesting.TC005_GET_FrameworkAutomation</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="contentencodingvalidtion">
+                  </a> <!-- contentencodingvalidtion -->
+                  <span class="method-name">contentencodingvalidtion</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="responsebodyvalidation">
+                  </a> <!-- responsebodyvalidation -->
+                  <span class="method-name">responsebodyvalidation</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="responsetimevalidation">
+                  </a> <!-- responsetimevalidation -->
+                  <span class="method-name">responsetimevalidation</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="statuscodevalidation">
+                  </a> <!-- statuscodevalidation -->
+                  <span class="method-name">statuscodevalidation</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-restassured-class-passed -->
+          <div class="suite-restassured-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">RestAssuredAPITesting.RestAssuredAPITesting.TC001_GET_Request</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="getweatherDetails">
+                  </a> <!-- getweatherDetails -->
+                  <span class="method-name">getweatherDetails</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-restassured-class-passed -->
+          <div class="suite-restassured-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">RestAssuredAPITesting.RestAssuredAPITesting.TC006_GET_EmployeeRecord</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="contentlenght">
+                  </a> <!-- contentlenght -->
+                  <span class="method-name">contentlenght</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="contenttype">
+                  </a> <!-- contenttype -->
+                  <span class="method-name">contenttype</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="getserver">
+                  </a> <!-- getserver -->
+                  <span class="method-name">getserver</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="responsebodyvalidtion">
+                  </a> <!-- responsebodyvalidtion -->
+                  <span class="method-name">responsebodyvalidtion</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="responsetime">
+                  </a> <!-- responsetime -->
+                  <span class="method-name">responsetime</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-restassured-class-passed -->
+        </div> <!-- panel restassured -->
+        <div panel-name="test-xml-restassured" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">C:\Users\dikshit.bangera\eclipse-workspace\RestAssuredAPITesting\TestNG.xml</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;https://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite name=&quot;restassured&quot; verbose=&quot;0&quot;&gt;
+  &lt;listeners&gt;
+    &lt;listener class-name=&quot;Utilities.Reporting&quot;/&gt;
+  &lt;/listeners&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;restassuredapi&quot; verbose=&quot;0&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;RestAssuredAPITesting.RestAssuredAPITesting.TC001_GET_Request&quot;/&gt;
+      &lt;class name=&quot;RestAssuredAPITesting.RestAssuredAPITesting.TC002_POST_Request&quot;/&gt;
+      &lt;class name=&quot;RestAssuredAPITesting.RestAssuredAPITesting.TC003_GET_Request&quot;/&gt;
+      &lt;class name=&quot;RestAssuredAPITesting.RestAssuredAPITesting.TC004_GET_Authentication&quot;/&gt;
+      &lt;class name=&quot;RestAssuredAPITesting.RestAssuredAPITesting.TC005_GET_FrameworkAutomation&quot;/&gt;
+      &lt;class name=&quot;RestAssuredAPITesting.RestAssuredAPITesting.TC006_GET_EmployeeRecord&quot;/&gt;
+      &lt;class name=&quot;RestAssuredAPITesting.RestAssuredAPITesting.TC007_POST_CreateEmployeeRecord&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- restassuredapi --&gt;
+&lt;/suite&gt; &lt;!-- restassured --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-restassured" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for restassured</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+              <li>
+                <span class="test-name">restassuredapi (7 classes)</span>
+              </li>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-restassured" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for restassured</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-restassured" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for restassured</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_restassured');
+function tableData_restassured() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(15);
+data.setCell(0, 0, 0)
+data.setCell(0, 1, 'getweatherDetails')
+data.setCell(0, 2, 'RestAssuredAPITesting.RestAssuredAPITesting.TC001_GET_Request')
+data.setCell(0, 3, 6756);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'googleMapTest')
+data.setCell(1, 2, 'RestAssuredAPITesting.RestAssuredAPITesting.TC003_GET_Request')
+data.setCell(1, 3, 1656);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'RegistrationSuccessful')
+data.setCell(2, 2, 'RestAssuredAPITesting.RestAssuredAPITesting.TC002_POST_Request')
+data.setCell(2, 3, 1594);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'authentication')
+data.setCell(3, 2, 'RestAssuredAPITesting.RestAssuredAPITesting.TC004_GET_Authentication')
+data.setCell(3, 3, 203);
+data.setCell(4, 0, 4)
+data.setCell(4, 1, 'responsebodyvalidtion')
+data.setCell(4, 2, 'RestAssuredAPITesting.RestAssuredAPITesting.TC006_GET_EmployeeRecord')
+data.setCell(4, 3, 16);
+data.setCell(5, 0, 5)
+data.setCell(5, 1, 'responsebodyvalidtion')
+data.setCell(5, 2, 'RestAssuredAPITesting.RestAssuredAPITesting.TC007_POST_CreateEmployeeRecord')
+data.setCell(5, 3, 0);
+data.setCell(6, 0, 6)
+data.setCell(6, 1, 'responsebodyvalidation')
+data.setCell(6, 2, 'RestAssuredAPITesting.RestAssuredAPITesting.TC005_GET_FrameworkAutomation')
+data.setCell(6, 3, 0);
+data.setCell(7, 0, 7)
+data.setCell(7, 1, 'responsetimevalidation')
+data.setCell(7, 2, 'RestAssuredAPITesting.RestAssuredAPITesting.TC005_GET_FrameworkAutomation')
+data.setCell(7, 3, 0);
+data.setCell(8, 0, 8)
+data.setCell(8, 1, 'getserver')
+data.setCell(8, 2, 'RestAssuredAPITesting.RestAssuredAPITesting.TC006_GET_EmployeeRecord')
+data.setCell(8, 3, 0);
+data.setCell(9, 0, 9)
+data.setCell(9, 1, 'contenttype')
+data.setCell(9, 2, 'RestAssuredAPITesting.RestAssuredAPITesting.TC006_GET_EmployeeRecord')
+data.setCell(9, 3, 0);
+data.setCell(10, 0, 10)
+data.setCell(10, 1, 'contentencodingvalidtion')
+data.setCell(10, 2, 'RestAssuredAPITesting.RestAssuredAPITesting.TC005_GET_FrameworkAutomation')
+data.setCell(10, 3, 0);
+data.setCell(11, 0, 11)
+data.setCell(11, 1, 'responsetime')
+data.setCell(11, 2, 'RestAssuredAPITesting.RestAssuredAPITesting.TC006_GET_EmployeeRecord')
+data.setCell(11, 3, 0);
+data.setCell(12, 0, 12)
+data.setCell(12, 1, 'contentlenght')
+data.setCell(12, 2, 'RestAssuredAPITesting.RestAssuredAPITesting.TC006_GET_EmployeeRecord')
+data.setCell(12, 3, 0);
+data.setCell(13, 0, 13)
+data.setCell(13, 1, 'getstatusline')
+data.setCell(13, 2, 'RestAssuredAPITesting.RestAssuredAPITesting.TC007_POST_CreateEmployeeRecord')
+data.setCell(13, 3, 0);
+data.setCell(14, 0, 14)
+data.setCell(14, 1, 'statuscodevalidation')
+data.setCell(14, 2, 'RestAssuredAPITesting.RestAssuredAPITesting.TC005_GET_FrameworkAutomation')
+data.setCell(14, 3, 0);
+window.suiteTableData['restassured']= { tableData: data, tableDiv: 'times-div-restassured'}
+return data;
+}
+              </script>
+              <span class="suite-total-time">Total running time: 10 seconds</span>
+              <div id="times-div-restassured">
+              </div> <!-- times-div-restassured -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-restassured" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for restassured</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-restassured" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">0 ignored methods</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-restassured" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">RestAssuredAPITesting.RestAssuredAPITesting.TC001_GET_Request</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">getweatherDetails</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">RestAssuredAPITesting.RestAssuredAPITesting.TC002_POST_Request</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">RegistrationSuccessful</span>
+                <span class="method-start">6771 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">RestAssuredAPITesting.RestAssuredAPITesting.TC003_GET_Request</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">googleMapTest</span>
+                <span class="method-start">8396 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">RestAssuredAPITesting.RestAssuredAPITesting.TC004_GET_Authentication</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">authentication</span>
+                <span class="method-start">10052 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">RestAssuredAPITesting.RestAssuredAPITesting.TC005_GET_FrameworkAutomation</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">setup</span>
+                <span class="method-start">10255 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="configuration-class before">
+                <span class="method-name">beforeTest</span>
+                <span class="method-start">10552 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <span class="method-name">contentencodingvalidtion</span>
+                <span class="method-start">10692 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">responsebodyvalidation</span>
+                <span class="method-start">10692 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">responsetimevalidation</span>
+                <span class="method-start">10692 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">statuscodevalidation</span>
+                <span class="method-start">10692 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-class after">
+                <span class="method-name">teardown</span>
+                <span class="method-start">10692 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">RestAssuredAPITesting.RestAssuredAPITesting.TC006_GET_EmployeeRecord</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">setup</span>
+                <span class="method-start">10692 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="configuration-class before">
+                <span class="method-name">beforetest</span>
+                <span class="method-start">10724 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <span class="method-name">contentlenght</span>
+                <span class="method-start">10833 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">contenttype</span>
+                <span class="method-start">10833 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">getserver</span>
+                <span class="method-start">10833 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">responsebodyvalidtion</span>
+                <span class="method-start">10833 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">responsetime</span>
+                <span class="method-start">10849 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-class after">
+                <span class="method-name">teardown</span>
+                <span class="method-start">10849 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">RestAssuredAPITesting.RestAssuredAPITesting.TC007_POST_CreateEmployeeRecord</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">beforetest</span>
+                <span class="method-start">10849 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <span class="method-name">getstatusline</span>
+                <span class="method-start">12677 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">responsebodyvalidtion</span>
+                <span class="method-start">12677 ms</span>
+              </div> <!-- test-method -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+      </div> <!-- main-panel-root -->
+    </div> <!-- wrapper -->
+  </body>
+<script type="text/javascript" src="testng-reports2.js"></script>
+</html>
